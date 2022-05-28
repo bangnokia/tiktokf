@@ -1,6 +1,8 @@
 import 'emoji-log';
-import {browser} from 'webextension-polyfill-ts';
+import { browser } from "webextension-polyfill-ts";
 
-browser.runtime.onInstalled.addListener((): void => {
-  console.emoji('🦄', 'extension is loaded');
+console.log('background script loaded')
+
+browser.tabs.onUpdated.addListener(async (tabId, changeInfo, tab) => {
+  console.log('chanaaaaaaaaaaaaaaa', tabId, changeInfo, tab);
 });
