@@ -1,3 +1,5 @@
-console.log('helloworld from content script');
+console.log('Content script loaded');
+
+console.log('current url', document.URL);
 
 export {};
