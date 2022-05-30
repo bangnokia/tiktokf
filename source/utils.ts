@@ -6,5 +6,4 @@ div[class*='-DivBrowserModeContainer'] div[class^='tiktok-'][class*='-DivContent
 }
 `
   document.head.append(style)
-  console.log('append custom style', style)
 }
