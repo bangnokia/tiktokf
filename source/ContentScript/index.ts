@@ -8,10 +8,9 @@ if (enable) {
 
   hotkeys('f', () => {
     const activeSlider = document.querySelector('.swiper-slide-active');
-    const expandButton = activeSlider?.querySelector('[class*=\'-DivExpandIconContainer\']');
+    const expandButton: HTMLElement | null | undefined = activeSlider?.querySelector('[class*=\'-DivExpandIconContainer\']');
     expandButton?.click();
   });
 }
-
 
 export { };
