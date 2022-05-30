@@ -15,9 +15,8 @@
 
   "permissions": [
     "activeTab",
-    "storage",
-    "http://*/*",
-    "https://*/*"
+    "http://*.tiktok.com/*",
+    "https://*.tiktok.com/*"
   ],
 
   "content_security_policy": "script-src 'self'; object-src 'self'",
