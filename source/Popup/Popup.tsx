@@ -4,13 +4,16 @@ import './styles.scss';
 const Popup: React.FC = () => {
   return (
     <section id="popup">
-      <p style={{
+      <h1 style={{ fontWeight: 'bold' }}>Keyboard shortcuts</h1>
+      <ul style={{
         display: 'flex',
-        alignItems: 'center',
-        fontSize: '1.5rem',
-        fontWeight: 'bold',
+        flexDirection: 'column',
         color: 'sky'
-      }}>Tiktok F</p>
+      }}>
+        <li>Press <kbd style={{ fontWeight: 'bold' }}>F</kbd> to enter full screen of current video</li>
+        <li>Press <kbd style={{ fontWeight: 'bold' }}>ESC</kbd> to exit full screen of current video</li>
+        <li>Press <kbd style={{ fontWeight: 'bold' }}>T</kbd> to toggle sidebar</li>
+      </ul>
     </section>
   );
 };
