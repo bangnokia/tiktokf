@@ -1,12 +1,17 @@
 import { injectCss } from '../utils'
 import hotkeys from 'hotkeys-js';
 
-injectCss();
+const enable = true;
 
-hotkeys('f', () => {
-  const activeSlider = document.querySelector('.swiper-slide-active');
-  const expandButton = activeSlider?.querySelector('[class*=\'-DivExpandIconContainer\']');
-  expandButton?.click();
-});
+if (enable) {
+  injectCss();
+
+  hotkeys('f', () => {
+    const activeSlider = document.querySelector('.swiper-slide-active');
+    const expandButton = activeSlider?.querySelector('[class*=\'-DivExpandIconContainer\']');
+    expandButton?.click();
+  });
+}
+
 
 export { };
