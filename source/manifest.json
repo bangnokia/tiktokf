@@ -15,13 +15,10 @@
   "short_name": "Tiktok focus",
 
   "__firefox|opera|edge__permissions": [
-    "activeTab",
     "http://*.tiktok.com/*",
     "https://*.tiktok.com/*"
   ],
-  "__chrome__permissions": [
-    "activeTab"
-  ],
+  "__chrome__permissions": [],
   "__chrome__host_permissions":[
     "http://*.tiktok.com/*",
     "https://*.tiktok.com/*"
