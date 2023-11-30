@@ -34,7 +34,7 @@
     "name": "bangnokia"
   },
 
-  "__firefox__applications": {
+  "__firefox__browser_specific_settings": {
     "gecko": {
       "id": "{223dd7ff-2d54-4cce-b7b3-7057993d0a24}"
     }
