@@ -2,7 +2,7 @@
   "__firefox|opera|edge__manifest_version": 2,
   "__chrome__manifest_version": 3,
   "name": "Tiktok focus",
-  "version": "0.1.0",
+  "version": "0.2.0",
 
   "icons": {
     "16": "assets/icons/favicon-16.png",
@@ -19,7 +19,7 @@
     "https://*.tiktok.com/*"
   ],
   "__chrome__permissions": [],
-  "__chrome__host_permissions":[
+  "__chrome__host_permissions": [
     "http://*.tiktok.com/*",
     "https://*.tiktok.com/*"
   ],

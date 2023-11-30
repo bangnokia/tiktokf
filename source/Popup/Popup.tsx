@@ -12,6 +12,7 @@ const Popup: React.FC = () => {
   });
 
   const downloadUrl = `https://rubick.app/?url=${encodeURIComponent(url)}`;
+  console.log(downloadUrl);
 
   return (
     <section id="popup" style={{ fontSize: '1.25rem' }}>
@@ -25,7 +26,10 @@ const Popup: React.FC = () => {
         <li>Press <kbd style={{ fontWeight: 'bold' }}>F</kbd> to enter full screen of the current video</li>
         <li>Press <kbd style={{ fontWeight: 'bold' }}>ESC</kbd> to exit full screen of the current video</li>
       </ul>
-      <a href={downloadUrl} type="button" style={{
+      <a href={downloadUrl}
+        target="_blank"
+        role="button"
+        style={{
         marginTop: '1rem',
         border: '1px solid #ccc',
         background: '#fe2c55',
