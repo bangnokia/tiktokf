@@ -14,6 +14,7 @@ if (enable) {
 
   // press T to toggle style on and off
   hotkeys('t', () => {
+    console.log('toggling')
     if (style.textContent === '') {
       style.textContent = magicCss
     } else {

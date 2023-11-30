@@ -7,7 +7,7 @@ export function injectCss(): HTMLElement {
 
 
 export const magicCss = `
-div[class*='-DivBrowserModeContainer'] div[class^='tiktok-'][class*='-DivContentContainer'] {
+div[class*='-DivBrowserModeContainer'] div[class*='-DivContentContainer'] {
   display: none !important;
 }
 `;
